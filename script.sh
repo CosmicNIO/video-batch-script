@@ -1,6 +1,6 @@
 #!/bin/bash
 cd input
-formats=("*.TS" "*.mov" "*.avi" "*.mp4" "*.webm" "*.m4v" "*.mvw")
+formats=("*.TS" "*.mov" "*.avi" "*.mp4" "*.webm" "*.m4v" "*.wmv")
 for i in ${formats[@]};
 do
   echo "Processing $i file..";
